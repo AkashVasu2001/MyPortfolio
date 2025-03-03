@@ -2,11 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
-<<<<<<< HEAD
 import bgv from '../assets/bg.jpg'
-=======
-import bgv from '../assets/bgv1.mp4'
->>>>>>> 50d45a3 (Initial commit or your commit message)
 
 export const Contact = () => {
   const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
@@ -17,10 +13,7 @@ export const Contact = () => {
     if (publicKey) {
       emailjs.init(publicKey);
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 50d45a3 (Initial commit or your commit message)
   }, [publicKey]);
 
   const handleSubmit = async (e) => {
@@ -40,11 +33,7 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
-<<<<<<< HEAD
       {/* <video
-=======
-      <video
->>>>>>> 50d45a3 (Initial commit or your commit message)
         autoPlay
         loop
         muted
@@ -53,13 +42,8 @@ export const Contact = () => {
       >
         <source src={bgv} type="video/mp4" />
         Your browser does not support the video tag.
-<<<<<<< HEAD
       </video> */}
 <img src={bgv} alt="" className="absolute z-0 w-full h-full object-cover" />
-=======
-      </video>
-
->>>>>>> 50d45a3 (Initial commit or your commit message)
       <div className="relative z-10 p-6 sm:p-10 rounded-lg backdrop-blur-sm w-full max-w-[90vw] sm:max-w-lg text-cyan-400 shadow-[0_8px_16px_rgba(0,0,0,5)]">
         <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Contact Me</h2>
         

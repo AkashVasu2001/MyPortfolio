@@ -1,0 +1,84 @@
+/* Add this to your global CSS file (e.g., App.css) */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  /* styles.css */
+
+::-webkit-scrollbar {
+  width: 4px; /* Adjust width */
+  height: 4px; /* Adjust height */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dedede; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounding of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ddff; /* Color when hovering over the scrollbar thumb */
+}
+/* Add this to your global CSS or tailwind.config.js */
+.hover\:brightness-150:hover {
+  filter: brightness(1.5); /* Increase brightness on hover */
+}
+
+.hover\:drop-shadow-glow:hover {
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.hover\:text-emission:hover {
+  color: #00ffff; /* You can adjust this color for emission-like effect */
+}
+/* Glowing Text */
+.neon-glow {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* Simple Spinning Loader */
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid transparent;
+  border-top: 3px solid #0ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'englisch-regular';
+    src: url('./fonts/englisch-regular.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-regular-italic';
+    src: url('./fonts/englisch-regular-italic.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-bold';
+    src: url('./fonts/englisch-bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-bold-italic';
+    src: url('./fonts/englisch-bold-italic.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-black';
+    src: url('./fonts/englisch-black.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-black-italic';
+    src: url('./fonts/englisch-black-italic.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-extrabold';
+    src: url('./fonts/englisch-extrabold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-extrabold-italic';
+    src: url('./fonts/englisch-extrabold-italic.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-light';
+    src: url('./fonts/englisch-light.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-light-italic';
+    src: url('./fonts/englisch-light-italic.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-medium';
+    src: url('./fonts/englisch-medium.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'englisch-medium-italic';
+    src: url('./fonts/englisch-medium-italic.otf') format('opentype');
+  }
+  

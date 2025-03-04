@@ -68,7 +68,7 @@ export const Education = () => {
             Cognizant
           </h3>
           <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-            Salesforce Developer,<br /> Programmer Analyst
+            Frontend Developer,<br /> Programmer Analyst
           </p>
         </li>
       </ol>

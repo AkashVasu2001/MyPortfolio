@@ -53,7 +53,7 @@ export const Contact = () => {
             <input
               type="text"
               name="user_name"
-              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600"
+              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none ring-cyan-600 ring-2  focus:ring-4 focus:ring-cyan-600"
             />
           </div>
           <div>
@@ -61,21 +61,21 @@ export const Contact = () => {
             <input
               type="email"
               name="user_email"
-              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600"
+              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none focus:ring-4 ring-cyan-600 ring-2  focus:ring-cyan-600"
             />
           </div>
           <div>
             <label className="block font-medium mb-2">Message</label>
             <textarea
               name="message"
-              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600 h-24 sm:h-32 resize-none"
+              className="w-full p-2 sm:p-3 border border-cyan-800 rounded-lg bg-transparent focus:outline-none ring-cyan-600 ring-2  focus:ring-4 focus:ring-cyan-600 h-24 sm:h-32 resize-none"
             />
           </div>
           <input
             type="submit"
             value="Send"
             disabled={loading}
-            className="w-full p-2 sm:p-3 border border-cyan-800 font-bold rounded-lg hover:ring-2 ring-cyan-600 transition duration-300 cursor-pointer"
+            className="w-full p-2 sm:p-3 border border-cyan-800 font-bold rounded-lg hover:ring-4 ring-cyan-600 ring-2 transition duration-300 cursor-pointer"
           />
         </form>
 

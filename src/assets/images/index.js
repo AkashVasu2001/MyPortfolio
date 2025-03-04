@@ -20,6 +20,8 @@ import com from './computer.png';
 import cap from './cap.png';
 import port from './port.png';
 import note from './notepad.png';
+import quiz from './quiz.png';
+import udhaar from './udhaar.jpg';
 
 export {
   sfdc,
@@ -44,4 +46,6 @@ export {
   cap,
   port,
   note,
+  quiz,
+  udhaar,
 };

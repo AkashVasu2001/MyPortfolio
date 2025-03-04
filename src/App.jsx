@@ -1,7 +1,7 @@
 import './app.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Nav } from './components/Nav';
-import './assets/fonts/fonts.css'
+import './assets/fonts.css'
 import { Home, Education, Work, Skills, Contact } from './pages/Index.jsx'
 
 function App() {

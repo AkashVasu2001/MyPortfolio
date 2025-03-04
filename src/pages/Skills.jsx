@@ -1,5 +1,5 @@
-import { skill } from "../assets/constants/index.js";
-import { com } from "../assets/images/index";
+import { skill } from "../assets/constants/index.jsx";
+//import { com } from "../assets/images/index";
 export const Skills = () => {
   return (
     <>

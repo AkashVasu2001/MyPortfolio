@@ -1,4 +1,4 @@
-import { sfdc, blender, css, figma, html, js, py, rct, tw, xd, ad, pd, ai, threejs,vs } from "../images/index.js";
+import { sfdc, blender, css, figma, html, js, py, rct, tw, xd, ad, pd, ai, threejs,vs } from "../images/index.jsx";
 export const skill = {
     salesforce: [
         {

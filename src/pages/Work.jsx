@@ -1,6 +1,6 @@
 import { port, sls, cap, note, quiz, udhaar } from "../assets/images/index.jsx";
 import { useEffect, useRef } from 'react';
-import '../app.css'; // Ensure to import your CSS file for styles
+import '../App.css'; // Ensure to import your CSS file for styles
 
 export const Work = () => {
   const scrollRef = useRef(null); // Reference for the scrollable container

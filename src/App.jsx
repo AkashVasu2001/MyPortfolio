@@ -1,4 +1,4 @@
-import './app.css';
+import './App.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import './assets/fonts.css'

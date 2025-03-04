@@ -3,11 +3,11 @@
     src: url('./fonts/englisch-regular.otf') format('opentype');
   }
   
-  @font-face {
+  /* @font-face {
     font-family: 'englisch-regular-italic';
     src: url('./fonts/englisch-regular-italic.otf') format('opentype');
   }
-  
+   */
   @font-face {
     font-family: 'englisch-bold';
     src: url('./fonts/englisch-bold.otf') format('opentype');

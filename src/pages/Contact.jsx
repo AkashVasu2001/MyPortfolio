@@ -32,7 +32,10 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
+    <section
+      id="contact"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black"
+    >
       {/* <video
         autoPlay
         loop
@@ -43,11 +46,21 @@ export const Contact = () => {
         <source src={bgv} type="video/mp4" />
         Your browser does not support the video tag.
       </video> */}
-<img src={bgv} alt="" className="absolute z-0 w-full h-full object-cover" />
+      <img
+        src={bgv}
+        alt=""
+        className="absolute z-0 w-full h-full object-cover"
+      />
       <div className="relative z-10 p-6 sm:p-10 rounded-lg backdrop-blur-sm w-full max-w-[90vw] sm:max-w-lg text-cyan-400 shadow-[0_8px_16px_rgba(0,0,0,5)]">
-        <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Contact Me</h2>
-        
-        <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col space-y-4 text-lg sm:text-xl">
+        <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">
+          Contact Me
+        </h2>
+
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className="flex flex-col space-y-4 text-lg sm:text-xl"
+        >
           <div>
             <label className="block font-medium mb-2">Name</label>
             <input
@@ -73,7 +86,8 @@ export const Contact = () => {
           </div>
           <input
             type="submit"
-            value="Send"
+            //onClick={() => setLoading(true)} // Added onClick event
+            value={loading ? "loading..." : "Send"} // Updated button text
             disabled={loading}
             className="w-full p-2 sm:p-3 border border-cyan-800 font-bold rounded-lg hover:ring-4 ring-cyan-600 ring-2 transition duration-300 cursor-pointer"
           />
@@ -81,13 +95,28 @@ export const Contact = () => {
 
         <br />
         <div className="social-links flex justify-center space-x-6 text-sm">
-          <a href="https://github.com/AkashVasu2001" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-800">
+          <a
+            href="https://github.com/AkashVasu2001"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-800"
+          >
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="https://linkedin.com/in/akash-v-48b34017a" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-800">
+          <a
+            href="https://linkedin.com/in/akash-v-48b34017a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-800"
+          >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akashmpvasu@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-800">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=akashmpvasu@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-800"
+          >
             <FontAwesomeIcon icon={faGoogle} size="2x" />
           </a>
         </div>

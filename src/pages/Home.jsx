@@ -52,7 +52,7 @@ export const Home = () => {
       </Canvas>
 
       {/* Text Overlay */}
-      <div className="text-center text-zinc-50 text-6xl drop-shadow-lg font-englisch-light-italic leading-tight tracking-tighter opacity-75 select-none absolute z-10 bottom-5">
+      <div className="text-center  text-white text-5xl drop-shadow-lg select-none absolute z-10 bottom-10">  
         <p className="z-10">I`m Akash,</p>
         <p>
           a{" "}
@@ -60,16 +60,12 @@ export const Home = () => {
             <span className="relative text-cyan-400 italic opacity-90 hover:brightness-150 hover:drop-shadow-glow">
               front-end
             </span>
-          </span>{" "}
-          and{" "}
-          <span className="relative hover:text-emission">
-            <span className="relative text-cyan-400 italic opacity-90 hover:brightness-150 hover:drop-shadow-glow">
-              salesforce
-            </span>
-          </span>{" "}
+          </span>
+          {" "}
           developer based in Chennai.
         </p>
       </div>
     </section>
   );
 };
+// font-englisch-light-italic  leading-tight tracking-tighter 

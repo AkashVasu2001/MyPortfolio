@@ -21,8 +21,8 @@ const Model = (props) => {
     ref.current.position.y = floatingOffset.current;
 
     // Smooth mouse movement
-    targetRotation.current.x = mouse.y * 0.3;
-    targetRotation.current.y = mouse.x * 0.3;
+    targetRotation.current.x = mouse.y * 0.7;
+    targetRotation.current.y = mouse.x * 0.7;
 
     ref.current.rotation.x = THREE.MathUtils.lerp(ref.current.rotation.x, targetRotation.current.x, 0.05);
     ref.current.rotation.y = THREE.MathUtils.lerp(ref.current.rotation.y, targetRotation.current.y, 0.05);

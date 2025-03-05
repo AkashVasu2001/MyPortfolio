@@ -7,7 +7,7 @@ export const Skills = () => {
         id="skills"
         className="min-h-screen  flex items-center bg-black text-white"
       >
-        <div className="p-6 text-7xl">My Skills</div>
+        <div className="p-16 text-7xl">My Skills</div>
         <div className="flex flex-col w-full h-2/5 mt-20">
         {/* Map through each skill category */}
         {Object.keys(skill).map((category) => (

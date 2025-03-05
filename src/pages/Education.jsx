@@ -8,7 +8,7 @@ export const Education = () => {
       id="education"
       className="min-h-screen relative font-helvetica flex items-center justify-evenly bg-black"
     >
-<div className="p-6 text-7xl text-white">
+<div className="p-16 text-7xl text-white">
   Education&nbsp;& Experience
 </div>
 

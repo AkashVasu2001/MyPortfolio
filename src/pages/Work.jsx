@@ -27,14 +27,14 @@ export const Work = () => {
 
   return (
     <div id="work" className="min-h-screen font-helvetica bg-black flex items-center justify-center">
-      <div className="p-4 text-7xl text-white">Work & Projects</div>
+      <div className="p-16  text-7xl text-white">Work & Projects</div>
 
       <div ref={scrollRef} className="flex gap-[2vw] p-4 h-[80vh] overflow-x-auto overflow-y-hidden">
         
         {/* QuizMeOn – AI-Powered Quiz Web App */}
-        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
           <a href="#">
-            <div className="h-[40vh] w-full overflow-hidden rounded-t-lg">
+            <div className="h-[40vh] w-full overflow-hidden rounded-t-3xl">
               <img className="h-full w-full object-cover" src={quiz} alt="QuizMeOn App" />
             </div>
           </a>
@@ -52,9 +52,9 @@ export const Work = () => {
         </div>
 
         {/* Udhaar – Expense Tracking App */}
-        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
           <a href="#">
-            <div className="h-[40vh] w-full overflow-hidden rounded-t-lg">
+            <div className="h-[40vh] w-full overflow-hidden rounded-t-3xl ">
               <img className="h-full w-full object-cover" src={udhaar} alt="Udhaar App" />
             </div>
           </a>
@@ -76,9 +76,9 @@ export const Work = () => {
        
 
         {/* Intelligent Headgear Project */}
-        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+        <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
           <a href="#">
-            <div className="h-[40vh] w-full overflow-hidden rounded-t-lg">
+            <div className="h-[40vh] w-full overflow-hidden rounded-t-3xl">
               <img className="h-full w-full bg-black object-cover" src={cap} alt="Intelligent Headgear" />
             </div>
           </a>
@@ -96,9 +96,9 @@ export const Work = () => {
         </div>
 
          {/* React and Three.js Portfolio */}
-         <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+         <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
           <a href="#">
-            <div className="h-[40vh] w-full overflow-hidden rounded-t-lg">
+            <div className="h-[40vh] w-full overflow-hidden rounded-t-3xl ">
               <img className="h-full w-full object-cover" src={port} alt="React and Three.js Portfolio" />
             </div>
           </a>
@@ -114,9 +114,9 @@ export const Work = () => {
 
         {/* Other Projects Follow */}
          {/* Angular Notepad Project */}
-         <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
+         <div className="max-w-[90vw] md:max-w-md lg:max-w-lg bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 flex-shrink-0">
           <a href="#">
-            <div className="h-[40vh] w-full overflow-hidden rounded-t-lg">
+            <div className="h-[40vh] w-full overflow-hidden rounded-t-3xl ">
               <img className="h-full w-full object-cover" src={note} alt="Notepad Project" />
             </div>
           </a>

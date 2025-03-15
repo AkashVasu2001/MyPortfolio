@@ -41,7 +41,13 @@ export const Home = () => {
 
           {/* Model */}
           <Model position={[0, 0, 0]} />
-
+          <OrbitControls
+          enableZoom={true}
+          enablePan={false}
+          
+          autoRotate
+          autoRotateSpeed={5}
+        />
           {/* Bloom Effect */}
           <BloomEffect />
         </Suspense>

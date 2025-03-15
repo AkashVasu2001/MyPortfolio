@@ -17,6 +17,7 @@
     "@gltf-transform/core": "4.0.8",
     "@gltf-transform/extensions": "4.0.8",
     "@gltf-transform/functions": "4.0.8",
+    "@heroicons/react": "^2.2.0",
     "@node-loader/babel": "^2.1.0",
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",

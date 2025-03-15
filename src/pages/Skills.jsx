@@ -5,20 +5,17 @@ export const Skills = () => {
     <>
       <section
         id="skills"
-        className="min-h-screen  flex items-center bg-black text-white"
+        className="min-h-screen flex flex-col md:flex-row items-center bg-black text-white"
       >
-        <div className="p-16 text-7xl">My Skills</div>
+         <div className="p-8 md:p-12 text-3xl md:text-5xl lg:text-7xl text-white text-center">My Skills</div>
         <div className="flex flex-col w-full h-2/5 mt-20">
         {/* Map through each skill category */}
         {Object.keys(skill).map((category) => (
-          <div key={category} className=" flex flex-col">
-            {/* Heading for the skill category */}
-            {/* <h2 className="text-2xl pl- leading-tight font-bold tracking-wide p-3 text-left capitalize">
-              {category.replace(/([A-Z])/g, ' $1')} 
-            </h2> */}
+          <div key={category} >
+            
 
             {/* Grid for skills under this category */}
-            <div className="flex p-2 text-xl">
+            <div className="flex flex-wrap p-2 text-xl">
               {skill[category].map((skillItem) => (
                 <div className="w-[150px] h-[200px] " key={skillItem.name}>
                   <div className="flex flex-col items-center" >
@@ -36,7 +33,6 @@ export const Skills = () => {
         ))}
         </div>
        
-  {/* <img className="absolute flex justify-end w-1/2 h-1/2" src={com} alt="" /> */}
 
 
 
@@ -48,4 +44,3 @@ export const Skills = () => {
 };
 
 
-// transform hover:scale-105 transition-transform duration-300 ease-in-out

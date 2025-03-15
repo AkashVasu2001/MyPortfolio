@@ -51,7 +51,7 @@ export const Contact = () => {
         alt=""
         className="absolute z-0 w-full h-full object-cover"
       />
-      <div className="relative z-10 p-6 sm:p-10 rounded-lg backdrop-blur-sm w-full max-w-[90vw] sm:max-w-lg text-cyan-400 shadow-[0_8px_16px_rgba(0,0,0,5)]">
+      <div className="relative z-5 p-6 sm:p-10 rounded-lg backdrop-blur-sm w-full max-w-[90vw] sm:max-w-lg text-cyan-400 shadow-[0_8px_16px_rgba(0,0,0,5)]">
         <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">
           Contact Me
         </h2>

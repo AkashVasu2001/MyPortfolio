@@ -1,27 +1,6 @@
 import { sfdc, blender, css, figma, html, js, py, rct, tw, xd, ad, pd, ai, threejs,vs } from "../images/index.jsx";
 export const skill = {
-    salesforce: [
-        {
-            imageUrl: sfdc,
-            name: "Salesforce",
-            type: "Salesforce",
-        },
-        {
-            imageUrl: ad,
-            name: "Salesforce Admin",
-            type: "Salesforce",
-        },
-        {
-            imageUrl: pd,
-            name: "Salesforce PD 1",
-            type: "Salesforce",
-        },
-        {
-            imageUrl: ai,
-            name: "Ai Associate",
-            type: "Salesforce",
-        },
-    ],
+    
     webDevelopment: [
         {
             imageUrl: rct,
@@ -75,6 +54,27 @@ export const skill = {
             imageUrl: blender,
             name: "Blender",
             type: "Animation",
+        },
+    ],salesforce: [
+        {
+            imageUrl: sfdc,
+            name: "Salesforce",
+            type: "Salesforce",
+        },
+        {
+            imageUrl: ad,
+            name: "Salesforce Admin",
+            type: "Salesforce",
+        },
+        {
+            imageUrl: pd,
+            name: "Salesforce PD 1",
+            type: "Salesforce",
+        },
+        {
+            imageUrl: ai,
+            name: "Ai Associate",
+            type: "Salesforce",
         },
     ],
 };
